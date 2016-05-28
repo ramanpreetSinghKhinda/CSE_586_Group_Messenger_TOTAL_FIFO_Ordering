@@ -1,0 +1,486 @@
+[
+    {
+        "outputFile": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 40,
+                    "endOffset": 91
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 190,
+                        "endColumn": 40,
+                        "endOffset": 226
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 96,
+                    "endColumn": 44,
+                    "endOffset": 136
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 145,
+                        "endColumn": 44,
+                        "endOffset": 185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 141,
+                    "endColumn": 42,
+                    "endOffset": 179
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 355,
+                        "endColumn": 42,
+                        "endOffset": 393
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 184,
+                    "endColumn": 43,
+                    "endOffset": 223
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 311,
+                        "endColumn": 43,
+                        "endOffset": 350
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 228,
+                    "endColumn": 41,
+                    "endOffset": 265
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 399,
+                        "endColumn": 41,
+                        "endOffset": 436
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 270,
+                    "endColumn": 41,
+                    "endOffset": 307
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 41,
+                        "endOffset": 92
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 312,
+                    "endColumn": 46,
+                    "endOffset": 354
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 97,
+                        "endColumn": 46,
+                        "endOffset": 139
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 359,
+                    "endColumn": 46,
+                    "endOffset": 401
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 442,
+                        "endColumn": 46,
+                        "endOffset": 484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 406,
+                    "endColumn": 46,
+                    "endOffset": 448
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 489,
+                        "endColumn": 46,
+                        "endOffset": 531
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 453,
+                    "endColumn": 46,
+                    "endOffset": 495
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 536,
+                        "endColumn": 46,
+                        "endOffset": 578
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 500,
+                    "endColumn": 46,
+                    "endOffset": 542
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 583,
+                        "endColumn": 46,
+                        "endOffset": 625
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 547,
+                    "endColumn": 46,
+                    "endOffset": 589
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 630,
+                        "endColumn": 46,
+                        "endOffset": 672
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 594,
+                    "endColumn": 46,
+                    "endOffset": 636
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 677,
+                        "endColumn": 46,
+                        "endOffset": 719
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 641,
+                    "endColumn": 38,
+                    "endOffset": 675
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 272,
+                        "endColumn": 38,
+                        "endOffset": 306
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 680,
+                    "endColumn": 39,
+                    "endOffset": 715
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 231,
+                        "endColumn": 39,
+                        "endOffset": 266
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 720,
+                    "endColumn": 52,
+                    "endOffset": 768
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 52,
+                        "endOffset": 104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 773,
+                    "endColumn": 46,
+                    "endOffset": 815
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 205,
+                        "endColumn": 46,
+                        "endOffset": 247
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 820,
+                    "endColumn": 56,
+                    "endOffset": 872
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 253,
+                        "endColumn": 56,
+                        "endOffset": 305
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 877,
+                    "endColumn": 44,
+                    "endOffset": 917
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 160,
+                        "endColumn": 44,
+                        "endOffset": 200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 922,
+                    "endColumn": 46,
+                    "endOffset": 964
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 311,
+                        "endColumn": 46,
+                        "endOffset": 353
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 969,
+                    "endColumn": 46,
+                    "endOffset": 1011
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 358,
+                        "endColumn": 46,
+                        "endOffset": 400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1016,
+                    "endColumn": 63,
+                    "endOffset": 1075
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 405,
+                        "endColumn": 63,
+                        "endOffset": 464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1080,
+                    "endColumn": 50,
+                    "endOffset": 1126
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 109,
+                        "endColumn": 50,
+                        "endOffset": 155
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1131,
+                    "endLine": 31,
+                    "endColumn": 12,
+                    "endOffset": 1417
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1422,
+                    "endLine": 34,
+                    "endColumn": 12,
+                    "endOffset": 1577
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA2_B/GroupMessenger2/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 665
+                    }
+                }
+            }
+        ]
+    }
+]

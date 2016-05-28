@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GroupMessenger2</string>
+    <string name="menu_settings">Settings</string>
+    <string name="button_send">Send</string>
+    <string name="button_ptest">PTest</string>
+
+    <string name="button_raman_test">Raman Test</string>
+
+    <string name="button_test1">Test1</string>
+    <string name="button_test2">Test2</string>
+    <string name="edit_text_chat_hint">Type to compose</string>
+
+</resources>
