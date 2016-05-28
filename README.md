@@ -1,1 +1,1 @@
-<p align="center">![ISIS_Working](https://github.com/ramanpreet1990/CSE_586_Group_Messenger_TOTAL_FIFO_Ordering/blob/master/Resources/ISIS_Algorithm_Working.gif) ![Img_1](https://raw.githubusercontent.com/ramanpreet1990/CSE_586_Group_Messenger_TOTAL_FIFO_Ordering/master/Resources/1.png)
+![ISIS_Working](https://github.com/ramanpreet1990/CSE_586_Group_Messenger_TOTAL_FIFO_Ordering/blob/master/Resources/ISIS_Algorithm_Working.gif)![Img_1](https://raw.githubusercontent.com/ramanpreet1990/CSE_586_Group_Messenger_TOTAL_FIFO_Ordering/master/Resources/1.png)
