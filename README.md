@@ -20,21 +20,6 @@ References used to design a modified version of ISIS algorithm: -</br>
 3. [Cloud Computing Concepts - University of Illinois at Urbana-Champaign](https://www.coursera.org/learn/cloud-computing)
 
 
-What is FIFO Ordering
--------------------------------
-The message delivery order at each process should **preserve the message sending order** from every process. But **each process can deliver in a different order**.
-
-For example: -</br>
-> –  **P1:** m0, m1, m2</br>
-> –  **P2:** m3, m4, m5</br>
-> –  **P3:** m6, m7, m8</br>
-
-One of the FIFO ordering would be: - </br>
-> –  **P1:** m0, m3, m6, m1, m2, m4, m7, m5, m8</br>
-> –  **P2:** m3, m0, m1, m4, m6, m7, m5, m2, m8</br>
-> –  **P3:** m6, m7, m8, m0, m1, m2, m3, m4, m5</br>
-
-
 What is TOTAL Ordering
 ----------------------------------
 **Every process delivers all messages in the same order**. Here we don't care about any causal relationship of messages and as long as every process follows a single order we are fine.
@@ -48,6 +33,21 @@ One of the TOTAL ordering would be: - </br>
 > –  **P1:** m8, m1, m2, m4, m3, m5, m6, m0, m7</br>
 > –  **P2:** m8, m1, m2, m4, m3, m5, m6, m0, m7</br>
 > –  **P3:** m8, m1, m2, m4, m3, m5, m6, m0, m7</br>
+
+
+What is FIFO Ordering
+-------------------------------
+The message delivery order at each process should **preserve the message sending order** from every process. But **each process can deliver in a different order**.
+
+For example: -</br>
+> –  **P1:** m0, m1, m2</br>
+> –  **P2:** m3, m4, m5</br>
+> –  **P3:** m6, m7, m8</br>
+
+One of the FIFO ordering would be: - </br>
+> –  **P1:** m0, m3, m6, m1, m2, m4, m7, m5, m8</br>
+> –  **P2:** m3, m0, m1, m4, m6, m7, m5, m2, m8</br>
+> –  **P3:** m6, m7, m8, m0, m1, m2, m3, m4, m5</br>
 
 
 What is TOTAL and FIFO Ordering
@@ -115,3 +115,28 @@ Running the Grader/Testing Program
     - $ ./*< grader executable>* ***apk file path***
 > 6. **‘-h’** argument will show you what options are available. Usage is shown below: -
 	- $ *< grader executable>*  **-h**
+
+
+Credits
+-------
+This project contains scripts and other related material that is developed by [**Networked Systems Research Group**](https://nsr.cse.buffalo.edu) at **[University of Buffalo, The State University of New York](http://www.cse.buffalo.edu)**.
+
+I acknowledge and grateful to [**Professor Steve ko**](https://nsr.cse.buffalo.edu/?page_id=272) and [**TA Kyungho Jeon**](http://www.cse.buffalo.edu/~kyunghoj/) for their continuous support throughout the Course ([**CSE 586**](http://www.cse.buffalo.edu/~stevko/courses/cse486/spring16/)) that helped me learn the skills of Large Scale Distributed Systems and develop a modified version of **ISIS algorithm that guarantees both TOTAL and FIFO ordering**.
+
+
+Developer
+---------
+Ramanpreet Singh Khinda (rkhinda@buffalo.edu)</br>
+[![website](https://raw.githubusercontent.com/ramanpreet1990/CSE_586_Simplified_Amazon_Dynamo/master/Resources/ic_website.png)](https://branded.me/ramanpreet1990)		[![googleplay](https://raw.githubusercontent.com/ramanpreet1990/CSE_586_Simplified_Amazon_Dynamo/master/Resources/ic_google_play.png)](https://play.google.com/store/apps/details?id=suny.buffalo.mis.research&hl=en)		[![twitter](https://raw.githubusercontent.com/ramanpreet1990/CSE_586_Simplified_Amazon_Dynamo/master/Resources/ic_twitter.png)](https://twitter.com/dk_sunny1)		[![linkedin](https://raw.githubusercontent.com/ramanpreet1990/CSE_586_Simplified_Amazon_Dynamo/master/Resources/ic_linkedin.png)](https://www.linkedin.com/in/ramanpreet1990)
+
+
+License
+----------
+Copyright {2016} 
+{Ramanpreet Singh Khinda rkhinda@buffalo.edu} 
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
