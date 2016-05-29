@@ -92,10 +92,10 @@ We should **implement a decentralized algorithm** to handle failures correctly. 
 The  [**Grader**](https://github.com/ramanpreet1990/CSE_586_Group_Messenger_TOTAL_FIFO_Ordering/tree/master/Testing_Program) test our implementation rigorously using multiple threads. There are two phases of testing. Refer [**Project Specifications**](https://docs.google.com/document/d/1nWaDn2joq-pFmePUjv_hMjO_NrvnmqVmIKGbjET2p5Q/edit#) for details: - 
 
 
-**Phase 1 --- Testing without any failure**
+**Phase 1 --- Testing without any failure**</br>
 In this phase, all the messages should be delivered in a TOTAL-FIFO order. For each message, all the delivery sequence numbers should be the same across processes.
 
-**Phase 2 --- Testing with a failure**
+**Phase 2 --- Testing with a failure**</br>
 In this phase, all the messages sent by live nodes should be delivered in a TOTAL-FIFO order. Due to a failure, the delivery sequence numbers might go out of sync if some nodes deliver messages from the failed node, while others do not. This is OK; the grader will only examine the TOTAL-FIFO ordering guarantees for the messages sent by live nodes. 
 
 **Note:** In phase 2, the message sequence numbers can go out of sync due to a failure. Thus, when the grader output says that a key is missing, the key means the message sequence number that the grader is verifying. It may not be the exact key.
