@@ -63,3 +63,55 @@ One of the TOTAL and FIFO ordering would be: - </br>
 > –  **P1:** m0, m3, m6, m1, m2, m4, m7, m5, m8</br>
 > –  **P2:** m0, m3, m6, m1, m2, m4, m7, m5, m8</br>
 > –  **P3:** m0, m3, m6, m1, m2, m4, m7, m5, m8</br>
+
+
+Requirements for the design
+----------------------------------------
+This project implements a modified version of ISIS algorithm based on below design guidelines: -
+
+> 1. Our app should multicast every user-entered message to all app instances (including the one that is sending the message). 
+> 2. Our app should use B-multicast. It should not implement R-multicast.
+> 3. **We need to come up with an algorithm that provides a TOTAL-FIFO ordering under a failure**.
+> 4. There will be **at most one failure of an app instance in the middle of execution**.  When a failure happens, the app instance will never come back during a run.
+> 5. Each message should be used to detect a node failure.
+> 6. **Do not just rely on socket creation or connect status to determine if a node has failed**. Due to the Android emulator networking setup, it is not safe to just rely on socket creation or connect status to judge node failures.
+> 7. We cannot assume which app instance will fail. In fact, the grader will run our group messenger multiple times and each time it will kill a different instance. Thus, we should not rely on chance (e.g., randomly picking a central sequencer) to handle failures. Instead, we should implement a decentralized algorithm (e.g., something based on ISIS).
+> 8. When handling a failure, it is important to make sure that our implementation does not stall. After we detect a failure, we need to clean up any state related to it, and move on.
+> 9. When there is a node failure, the grader will not check how you are ordering the messages sent by the failed node. **Please refer to the testing section below for details**.
+> 10. Every message should be stored in our provider individually by all app instances. Each message should be stored as a < key, value > pair. The key should be the final delivery sequence number for the message (as a string); the value should be the actual message (again, as a string). The delivery sequence number should start from 0 and increase by 1 for each message.
+> 11. We have fixed the ports & sockets: -</br>
+	a) Our app opens one server socket that listens on **Port 10000**.</br>
+	b) We use [**run_avd.py**](https://github.com/ramanpreet1990/CSE_586_Simplified_Amazon_Dynamo/blob/master/Scripts/run_avd.py) and [**set_redir.py**](https://github.com/ramanpreet1990/CSE_586_Simplified_Amazon_Dynamo/blob/master/Scripts/set_redir.py) scripts to set up the testing environment. </br>
+	c) The grading will use 5 AVDs. The redirection ports are **11108, 11112, 11116, 11120, and 11124**.
+
+
+Testing
+----------
+We should **implement a decentralized algorithm** to handle failures correctly. This means that we should not implement a centralized algorithm. This also means that we should not implement any variation of a centralized algorithm that randomly picks a central node. 
+
+The  [**Grader**](https://github.com/ramanpreet1990/CSE_586_Group_Messenger_TOTAL_FIFO_Ordering/tree/master/Testing_Program) test our implementation rigorously using multiple threads. There are two phases of testing. Refer [**Project Specifications**](https://docs.google.com/document/d/1nWaDn2joq-pFmePUjv_hMjO_NrvnmqVmIKGbjET2p5Q/edit#) for details: - 
+
+
+**Phase 1 --- Testing without any failure**
+In this phase, all the messages should be delivered in a TOTAL-FIFO order. For each message, all the delivery sequence numbers should be the same across processes.
+
+**Phase 2 --- Testing with a failure**
+In this phase, all the messages sent by live nodes should be delivered in a TOTAL-FIFO order. Due to a failure, the delivery sequence numbers might go out of sync if some nodes deliver messages from the failed node, while others do not. This is OK; the grader will only examine the TOTAL-FIFO ordering guarantees for the messages sent by live nodes. 
+
+**Note:** In phase 2, the message sequence numbers can go out of sync due to a failure. Thus, when the grader output says that a key is missing, the key means the message sequence number that the grader is verifying. It may not be the exact key.
+
+
+Running the Grader/Testing Program
+----------------------------------------------------
+> 1. Load the Project in Android Studio and create the [**apk file**](https://developer.android.com/studio/run/index.html).
+> 2. Download  the [**Testing Program**](https://github.com/ramanpreet1990/CSE_586_Group_Messenger_TOTAL_FIFO_Ordering/tree/master/Testing_Program) for your platform.
+> 3. Please also make sure that you have installed the app on all the AVDs.
+> 4. Before you run the program, please make sure that you are **running five AVDs**. The below command will do it: -
+	- **python [run_avd.py](https://github.com/ramanpreet1990/CSE_586_Simplified_Amazon_Dynamo/blob/master/Scripts/run_avd.py) 5**
+> 5. Also make sure that the **Emulator Networking** setup is done. The below command will do it: -
+	- **python [set_redir.py](https://github.com/ramanpreet1990/CSE_586_Simplified_Amazon_Dynamo/blob/master/Scripts/set_redir.py) 10000**
+> 6.  Run the grader: -
+	- $ chmod +x ***< grader executable>***
+    - $ ./*< grader executable>* ***apk file path***
+> 6. **‘-h’** argument will show you what options are available. Usage is shown below: -
+	- $ *< grader executable>*  **-h**
