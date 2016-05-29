@@ -1,6 +1,8 @@
 <p align="center">Large-Scale Distributed Systems</br>Group Messenger with TOTAL and FIFO ordering</br>modified ISIS algorithm</br>CSE 586
 ============
 
+<p align="center">![ISIS_Working](https://github.com/ramanpreet1990/CSE_586_Group_Messenger_TOTAL_FIFO_Ordering/blob/master/Resources/ISIS_Algorithm_Working.gif) 
+
 
 Goal
 ------
@@ -8,8 +10,6 @@ Implement advanced concepts that add ordering guarantees to the group messaging.
 
 **NOTE**</br>
 [**ISIS system**](http://webcache.googleusercontent.com/search?q=cache:3rOwsftQvYoJ:www.cs.cornell.edu/home/rvr/sys/p79-birman.pdf+&cd=1&hl=en&ct=clnk&gl=us&client=safari) developed at Cornell (Birman, 1993; Birman and Joseph, 1987a, 1987b; and Birman and Van Renesse, 1994) provides totally ordered multicast delivery algorithm. However in this assignment we need to design and **implement a modified version of ISIS algorithm** that guarantees both TOTAL and FIFO ordering and provides a persistent Key-Value storage with **ordering remaining intact even in case of application failures**.
-
-<p align="center">![ISIS_Working](https://github.com/ramanpreet1990/CSE_586_Group_Messenger_TOTAL_FIFO_Ordering/blob/master/Resources/ISIS_Algorithm_Working.gif) 
 
 
 References
