@@ -14,7 +14,7 @@ Implement advanced concepts that add ordering guarantees to the group messaging.
 
 References
 ---------------
-References used to design a modified version of ISIS algorithm: -</br>
+I have taken reference from below sources to design a modified version of ISIS algorithm: -</br>
 1. [Lecture slides](http://www.cse.buffalo.edu/~stevko/courses/cse486/spring16/lectures/12-multicast2.pdf)</br>
 2. [Distributed Systems: Concepts and Design (5th Edition) ](https://www.pearsonhighered.com/program/Coulouris-Distributed-Systems-Concepts-and-Design-5th-Edition/PGM85317.html)</br>
 3. [Cloud Computing Concepts - University of Illinois at Urbana-Champaign](https://www.coursera.org/learn/cloud-computing)
