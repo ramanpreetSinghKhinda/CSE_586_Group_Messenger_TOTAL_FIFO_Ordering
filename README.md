@@ -1,7 +1,7 @@
 <p align="center">
-Large-Scale Distributed Systems
-Group Messenger with TOTAL and FIFO ordering
-modified ISIS algorithm
+Large-Scale Distributed Systems</br>
+Group Messenger with TOTAL and FIFO ordering</br>
+modified ISIS algorithm</br>
 CSE 586 - Spring 2016
 </p>
 
